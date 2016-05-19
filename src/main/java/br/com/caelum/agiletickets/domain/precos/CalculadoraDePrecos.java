@@ -26,7 +26,7 @@ public class CalculadoraDePrecos {
 			} 
 			
 			if(sessao.getDuracaoEmMinutos() > 60){
-				preco = preco.add(sessao.getPreco().multiply(BigDecimal.valueOf(0.10)));
+				preco = sessao.getPreco().add(sessao.getPreco().multiply(BigDecimal.valueOf(0.10)));
 			}
 			break;
 		case ORQUESTRA:
