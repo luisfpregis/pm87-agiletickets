@@ -10,6 +10,9 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import br.com.caelum.agiletickets.acceptance.page.EstabelecimentosPage;
 
 public class EstabelecimentoTest {
+	
+//	TESTE DE MESA AUTOMATIZADO. SIMULA O USUARIO ENTRANDO NO SITE E CLICANDO NOS BOTOES
+//  CHAMA-SE TESTE DE ACEITACAO. COMO ESTA NO PACOTE
 
 	public static String BASE_URL = "http://localhost:8080";
 	private static WebDriver browser;
